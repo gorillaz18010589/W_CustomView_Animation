@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+自訂View
+//1.自訂res/values/attrs.xml
+  declare-styleable表示為自定義的屬性-->
+    <!-- format表示為可接受的參數類型-->
+    <!--integer int型-->
+    <!--boolean boolean-->
+    <!--color 顏色-->
+    <!--dimension 尺寸-->
+    <!--enum 枚舉-->
+    <!--flag 位或運算-->
+    <!--float float型-->
+    <!--fraction 百分數-->
+    <!--reference 資源文件-->
+    <!--string 字符串-->
+
+
+    <declare-styleable name="HankText">
+        <attr name="title" format="string"/>
+        <attr name="style" format="boolean"/>
+        <attr name="animation" format="boolean"/>
+    </declare-styleable>
+</resources>
